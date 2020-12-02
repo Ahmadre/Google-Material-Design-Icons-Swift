@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/Vaberer/Google-Material-Design-Icons-Swift.git', :tag => s.version }
   
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
   s.source_files   = 'Source/GMDIcon.swift'
   s.resource_bundle = { 'Google-Material-Design-Icons-Swift' => 'Source/GMDIcons.ttf' }
   s.frameworks = 'UIKit', 'CoreText'
